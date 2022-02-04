@@ -33,16 +33,14 @@ pytest tests --cov=. --cov-branch
 as an output you should see
 
 ```shell
-Name                     Stmts   Miss Branch BrPart  Cover
-----------------------------------------------------------
-main.py                     11     11      2      0     0%
-tests/__init__.py            0      0      0      0   100%
+Name                     Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------------
 tests/conftest.py            8      0      0      0   100%
 tests/test_storages.py      22      0      0      0   100%
 tests/test_worlder.py       11      0      0      0   100%
 worlder/__init__.py          5      0      2      0   100%
 worlder/storages.py         16      0      4      0   100%
 worlder/utils.py             2      0      0      0   100%
-----------------------------------------------------------
-TOTAL                       75     11      8      0    84%
+--------------------------------------------------------------------
+TOTAL                       64      0      6      0   100%
 ```
