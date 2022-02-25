@@ -16,5 +16,3 @@ if __name__ == '__main__':
     print(r.get("greeting"))
 
     print("Hello world, again!")
-
-    print("Second print")
