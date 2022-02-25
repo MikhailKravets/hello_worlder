@@ -34,3 +34,4 @@ if __name__ == '__main__':
 
     print(f(2, c=2, n=4, d=3))
     print(g(3, 3, c=1))
+    print(42)
