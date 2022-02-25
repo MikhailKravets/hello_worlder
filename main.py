@@ -14,3 +14,5 @@ if __name__ == '__main__':
 
     r.set("greeting", {'greeting': greeting, "name": name})
     print(r.get("greeting"))
+
+    print("Hello world, again!")
